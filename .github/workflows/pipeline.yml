@@ -26,3 +26,5 @@ jobs:
         with:
           command: npm run cypress-e2e
           start: npm run dev
+      - name: Deploy web en Render
+        wait-on: https://api.render.com/deploy/srv-cc9ojskgqg461mcfpvq0?key=K-zZqsBAgsM
