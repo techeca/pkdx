@@ -17,5 +17,11 @@ jobs:
           node-version: 16
       - name: Instalar dependencias
         run: npm install --no-found --no-audit
+      - name: Build
+        run: npm run build
       - name: Lint
         run: npm run lint
+      - name: E2E test
+        uses: cypress-io/github-action@v4
+        with:
+          command: npm run cypress-e2e
