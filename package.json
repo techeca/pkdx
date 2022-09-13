@@ -6,10 +6,10 @@
   "scripts": {
     "lint": "eslint ./src",
     "lint-fix": "eslint ./src --fix",
-    "build": "del dist && webpack",
+    "build": "webpack",
     "dev": "webpack serve",
     "cypress": "cypress open",
-    "cypress-e2e": "cypress run"
+    "cypress-e2e": "npx cypress run"
   },
   "author": "techeca",
   "license": "ISC",
@@ -20,12 +20,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.19.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "@babel/plugin-transform-modules-commonjs": "7.18.6",
     "@babel/preset-env": "7.19.0",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "8.2.5",
     "css-loader": "6.7.1",
-    "cypress": "^10.7.0",
+    "cypress": "10.7.0",
     "eslint": "8.23.0",
     "eslint-plugin-react": "7.31.8",
     "html-webpack-plugin": "5.5.0",
