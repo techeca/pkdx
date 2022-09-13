@@ -1,0 +1,16 @@
+html {
+  font-family: sans-serif;
+}
+
+.nombrePokedex {
+
+}
+
+.nombrePokemon {
+
+}
+
+.tiposPokemon {
+  display: flex;
+  flex-direction: column;
+}
