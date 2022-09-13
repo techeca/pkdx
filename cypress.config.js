@@ -7,7 +7,6 @@ module.exports = defineConfig({
     },
   },
   video: false,
-  supportFile: false,
   component: {
     devServer: {
       framework: "react",

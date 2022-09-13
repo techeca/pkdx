@@ -4,3 +4,4 @@
 
 cypress/*
 !cypress/e2e
+!cypress/support
