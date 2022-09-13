@@ -27,7 +27,7 @@ jobs:
           command: npm run cypress-e2e
           start: npm run dev
       - name: Deploy web en Render
-        uses: sws2apps/render-deployment@main
+        uses: johnbeynon/render-deploy-action@0.8.0
         with:
           serviceId: ${{ secrets.SERVICE_ID }}
           apiKey: ${{ secrets.API_KEY }}
