@@ -27,7 +27,8 @@ jobs:
           command: npm run cypress-e2e
           start: npm run dev
       - name: Deploy web en Render
-        uses: johnbeynon/render-deploy-action@master
+        uses: techeca/render-deploy-action@master
         with:
           service-id: ${{ secrets.SERVICE_ID }}
           api-key: ${{ secrets.API_KEY }}
+          deploy-hook: ${{ secrets.DEPLOY_HOOK }}
