@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
-
+  video: false,
   component: {
     devServer: {
       framework: "react",

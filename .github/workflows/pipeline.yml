@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16
       - name: Instalar dependencias
-        run: npm install --no-found --no-audit
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Lint
