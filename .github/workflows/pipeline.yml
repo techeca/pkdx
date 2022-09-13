@@ -29,5 +29,5 @@ jobs:
       - name: Deploy web en Render
         uses: johnbeynon/render-deploy-action@master
         with:
-          serviceId: ${{ secrets.SERVICE_ID }}
-          apiKey: ${{ secrets.API_KEY }}
+          service-id: ${{ secrets.SERVICE_ID }}
+          api-key: ${{ secrets.API_KEY }}
