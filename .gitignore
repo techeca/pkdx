@@ -1,6 +1,6 @@
 /node_modules
 /dist
- 
+  
 cypress/*
 !cypress/e2e
 !cypress/support
